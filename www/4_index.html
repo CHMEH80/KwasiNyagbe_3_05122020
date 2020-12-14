@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <link rel ="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="feuille de style"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="feuille de style"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Ohmyfood</title>
+    </head>
+
+<body>
+    <header>
+        <a href="index.html"> <i class="fas fa-long-arrow-alt-left"></i></a>
+        <img src="images/logo/ohmyfood@2x.svg" class="logo" />
+        <nav></nav>
+    </header>
+    <section id="menualafrancaise">
+        <figure class="figureremenus">
+            <img src="images/restaurants/la-palette-du-gout.jpg" alt="la-palette-du-gout" />
+            <figcaption class="menus_alafrancaise">
+                <h1>La palette du goût</h1>
+                <div class="icon heart">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-20 0 521 512"
+                        style="enable-background: new 0 0 512 512" xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                               c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                               c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                               s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                               C512,93.417,453.532,30,376,30z" />
+                    </svg>
+                </div>
+            </figcaption>
+        </figure>
+    </section>
+    <!-- <div id="head">
+            <form action="#">
+                <input type="text" name="q" id="serarch" />
+        </form>
+        </div> -->
+    <section id="menualafrancaise_menus">
+        <form>
+            <fieldset>
+                <legend>ENTRÉES</legend>
+                <ul>
+                    <li>
+                        <input id="menus_entree1" type="checkbox" name="entrance" />
+                        <label for="menus_entree1">
+                            <span class="menus_entree">Fricassée d'escargot</span>
+                            <span class="suitemenus_entree">Au piment d'Espelette  </span>
+                            <span class="prix">25€</span>
+                        </label>
+                        <label class="check" for="menus_entree1"> </label>
+                    </li>
+                    <li>
+                        <input id="menus_entree2" type="checkbox" name="entrance" />
+                        <label for="menus_entree2">
+                            <span class="menus_entree">Foie gras de canard mi-cuit</span>
+                            <span class="suitemenus_entree">Et ses copeaux de truffe noire</span>
+                            <span class="prix">35€</span>
+                        </label>
+                        <label class="check" for="menus_entree2"> </label>
+                    </li>
+                    <li>
+                        <input id="menus_entree3" type="checkbox" name="entrance" />
+                        <label for="menus_entree3">
+                            <span class="menus_entree">Oeuf au plat</span>
+                            <span class="suitemenus_entree">Assaisonné à la truffe sur lit de caviar</span>
+                            <span class="prix">20€</span>
+                        </label>
+                        <label class="check" for="menus_entree3"> </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>PLATS</legend>
+                <ul>
+                    <li>
+                        <input id="menus-plats1" type="checkbox" name="maindish" />
+                        <label for="menus-plats1">
+                            <span class="menus_entree">Filet de boeuf aux herbes</span>
+                            <span class="suitemenus_entree">Accompagné de sa ribambelle de légumes</span>
+                            <span class="prix">40€</span>
+                        </label>
+                        <label class="check" for="menus-plats1"> </label>
+                    </li>
+                    <li>
+                        <input id="menus-plats2" type="checkbox" name="maindish" />
+                        <label for="menus-plats2">
+                            <span class="menus_entree">Parmentier de queue de boeuf</span>
+                            <span class="suitemenus_entree">À la truffe noire sur sa purée de panais</span>
+                            <span class="prix">35€</span>
+                        </label>
+                        <label class="check" for="menus-plats2"> </label>
+                    </li>
+                    <li>
+                        <input id="menus-plats3" type="checkbox" name="maindish" />
+                        <label for="menus-plats3">
+                            <span class="menus_entree">Filet de turbot</span>
+                            <span class="suitemenus_entree">Aux agrumes</span>
+                            <span class="prix">44€</span>
+                        </label>
+                        <label class="check" for="menus-plats3"> </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>DESSERTS</legend>
+                <ul>
+                    <li>
+                        <input id="menus-desserts1" type="checkbox" name="dessert" />
+                        <label for="menus-desserts1">
+                            <span class="menus_entree">Paris-Brest</span>
+                            <span class="suitemenus_entree">Revisité</span>
+                            <span class="prix">18€</span>
+                        </label>
+                        <label class="check" for="menus-desserts1"> </label>
+                    </li>
+                    <li>
+                        <input id="menus-desserts2" type="checkbox" name="dessert" />
+                        <label for="menus-desserts2">
+                            <span class="menus_entree">Macaron au chocolat d'exception
+                            </span>
+                            <span class="suitemenus_entree">Et glace à la vanille de Madagascar</span>
+                            <span class="prix">22€</span>
+                        </label>
+                        <label class="check" for="menus-desserts2"> </label>
+                    </li>
+                    <li>
+                        <input id="menus-desserts3" type="checkbox" name="dessert" />
+                        <label for="menus-desserts3">
+                            <span class="menus_entree">Mousse au chocolat </span>
+                            <span class="suitemenus_entree">Au piment d'Espelette et à la truffe noire</span>
+                            <span class="prix">23€</span>
+                        </label>
+                        <label class="check" for="menus-desserts3"> </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <input class="button" type="submit" value="Commander" />
+        </form>
+    </section>
+    <footer>
+        <section id="apropos">
+            <img src="images/logo/ohmyfood@2x.svg" />
+            <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
+            <a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Contact</a>
+        </section>
+    </footer>
+</body>
+
+</html>
