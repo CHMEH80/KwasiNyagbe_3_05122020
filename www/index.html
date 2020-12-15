@@ -5,45 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel ="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="feuille de style"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="feuille de style"/>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
     <title>Ohmyfood</title>
 </head>
 
 <body>
     <header>
-        <img src="images/logo/ohmyfood@2x.svg" class="logo" alt="logo-ohmyfood">
         <nav>
+        <img src="images/logo/ohmyfood@2x.svg" class="logo" alt="logo-ohmyfood">
+        <a href="#index.html" class="accueil-restaurant">Acceuil</a>
+        <a href="#restaurants" class="r-restaurants">Restaurants</a>
+        <a href="" class="contact">Contact</a>
         </nav>
     </header>
     <section id="resrvationmenu">
         <div class="localisation">
             <div class="falocalisation"><i class="fas fa-map-marker-alt"></i></div>
-            <h4>Paris, Belleville</h4> 
+            <h4 class="parisbelleville">Paris, Belleville</h4> 
         </div>
         <h1>Retrouver le menu qui vous convient</h1>
         <h4>Découvrez des restaurants d'exception, sélectionnés par nos soins</h4>
-        <input class="button1" type="submit" value="Explorer nos restaurants" />
-        <!-- <div class="btn">
-            Explorer nos restaurants
-        </div> -->
-        <!-- <div class="container">
-            <div class="btn">
-                Explorer nos restaurants
-            </div>
-        </div> -->
+        <a  class="button1" href="#restaurants">Explorer nos restaurants</a>
+        <!-- <input class="button1" type="submit" value="Explorer nos restaurants" /> -->
         <div class="fonctionnement">
-            <h1 class="hfonctionnement">Fonctionnement</h1>
+            <h2 class="hfonctionnement">Fonctionnement</h2>
             <p class="unrestaurant"><i class="fas fa-mobile-alt"></i><a href="#">Choisissez un restaurant</a></p>
             <p class="composermenu"><i class="fas fa-list-ul"></i><a href="#">Composez votre menu</a></p>
             <p class="degusterrestaurant"><i class="fas fa-store"></i><a href="#">Dégustez au restaurant</a></p>
         </div>
     </section>
         <section id="restaurants">
-                <h1>Restaurants</h1>
-                <figure class="figurerestaurants">
+                <h1 class="h-restaurant">Restaurants</h1>
+                <figure class="figurerestaurants" onclick="location.href='2_index.html';" style="cursor: pointer">
                     <div class="restaurant_nouveau">
                     <img src="images/restaurants/la-palette-du-gout.jpg"
                         alt="la-palette-du-gout">
@@ -65,7 +61,7 @@
                            </div>
                     </figcaption>
                 </figure> 
-                <figure class="figurerestaurants"> 
+                <figure class="figurerestaurants" onclick="location.href='3_index.html';" style="cursor: pointer"> 
                     
                         <div class="restaurant_nouveau">
                             <img src="images/restaurants/la-note-enchante.jpg"
@@ -90,14 +86,14 @@
                            </div> 
                     </figcaption>
                 </figure> 
-                <figure class="figurerestaurants">
+                <figure class="figurerestaurants" onclick="location.href='4_index.html';" style="cursor: pointer">
                     <img src="images/restaurants/a-la-francaise.jpg"
                         alt="a-la-francaise">
                     <figcaption class="restaurantlapalettedugout">
                         <!-- <h4>À la française</h4>
                         <p>Cité Rouge</p>  -->
                         <div class="figcaption_restaurant">
-                            <h4>À la française</h4> 
+                            <h4>À la française <span class="francaise">cité</span></h4> 
                             <p>Cité Rouge</p>
                         </div> 
                         <div class="icon heart">
@@ -112,7 +108,7 @@
                            </div>
                     </figcaption>
                 </figure> 
-                <figure class="figurerestaurants">
+                <figure class="figurerestaurants" onclick="location.href='5_index.html';" style="cursor: pointer">
                     <img src="images/restaurants/delice-des-sens.jpg"
                         alt="delice-des-sens">
                     <figcaption class="restaurantlapalettedugout">
@@ -137,11 +133,11 @@
         </section>
     <footer>
         <section id="apropos">
-            <img src="images/logo/ohmyfood@2x.svg" alt="logo-ohmyfood">
+            <h1>Ohmyfood</h1>
             <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
             <a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a>
             <a href="#">Mentions légales</a>
-            <a href="#">Contact</a>
+            <a href="mailto:contact@class.com">Contact</a>
         </section>
     </footer>
 </body>

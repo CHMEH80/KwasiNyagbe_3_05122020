@@ -4,326 +4,391 @@
   border: 1px solid blue;
 }*/
 
-h1 h2, h3, h4, h5, h6, p, section h1, footer h1, nav a {
-    font-family: 'Roboto', sans-serif;
-  }
+h1 h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section h1,
+nav a {
+  font-family: 'Roboto', sans-serif;
+}
 
-  
-  /* Elémens principaux de la page*/
-  
-  /* Header */
-  
-  header .logo {
-    margin: 1rem 2rem 1rem 3.5rem;
-    font-family: 'Shrikhand', cursive;
-  }
-  
-  /*Navigation*/
-  
-  .localisation {
-    display: flex;
-    justify-content: center;
-    border-top: 1px transparent;
-    border-bottom: 1px transparent;
-    background-color: #f2f2f2;
-    /*@media screen AND (min-width:768px) {
-      color:red;
-    }*/
-  }
+footer h1{
+  font-family: 'Shrikhand', cursive;
+  color: white;
+}
 
-//   .btn {
-//     background: $cd-btn;
-//     color: $cd-txt;
-//     cursor: pointer;
-//     width: 59%;
-//     text-align: center;
-//     padding: .7rem .7rem;
-//     margin: 3rem;
-//     border-radius: 10rem;
-//     transform: scale(1);
-//     transition: transform 400ms;
-//     &:hover {
-//         transform: scale(1.15);
-//     }
-// }
+/* Elémens principaux de la page*/
+
+/* Header */
+
+header .logo {
+  margin: 1rem 2rem 1rem 4.5rem;
+}
+
+/*Navigation*/
+
+nav a {
+  display: none;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  border-top-style: groove;
+  background-color: #F2F2FF;
+  border-bottom: .1px solid rgba(209, 209, 209, .2);
+}
+
 
 .button1 {
-  // background-color: $cd-btn;
-  // border: 4px solid $cd-btn;
   background: linear-gradient(172deg, #ff79da 21%, #9356dc 79%);
+  box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
   color: white;
-  width: 60%;
+  width: 63%;
   border: none;
   text-align: center;
   border-radius: 10rem;
   cursor: pointer;
   overflow: hidden;
-  padding: .7rem .7rem;
+  padding: 0.7rem 0.7rem;
   margin: auto;
   position: relative;
   transition-property: backgroung-color;
   transition-duration: 5s;
-  // transition: all 450ms;
+  margin-bottom: 3rem;
   &:hover {
     transition-delay: 2s;
-      // transform: scale(1.13);
-      // background-color: $cd-btn-end;
-      background: linear-gradient(rgb(204, 81, 183) 50%, rgb(238, 164, 218) 80%);
-      box-shadow: 5px 5px #cc51b7;
+    // transform: scale(1.13);
+    background: linear-gradient(rgb(204, 81, 183) 50%, rgb(238, 164, 218) 80%);
+    box-shadow: 5px 5px #cc51b7;
   }
 }
 
+/* Section Fonctionnement */
 
-  /* Section Fonctionnement */
-
-  .fonctionnement i:hover{
-    color: $cd-btn;
-  }
-  
-  .fonctionnement {
-    a {
-      color: #000;
-      text-decoration: none;
-      font-size: small;
-      padding-left: 1rem;
-    }
-  
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
-    font-weight: bold;
-
-    @media screen and (min-width: 768px){
-      display:initial;
-      font-size: .5rem;
-    }
-
-
-
-    // @media screen and (min-width: 1280px){
-
-    // }
-  }
-  
-  i.fas.fa-map-marker-alt {
-    padding: 1.2rem 1.2rem 1.2rem 0rem;
-  }
-  
-  .fonctionnement p {
-    border: 1px solid #f2f2f2;
-    margin: 0.5rem 0.5rem 0.5rem 0.6rem;
-    display: inline-block;
-    padding: 1rem;
-    border-radius: 1.5rem;
-    font-family: 'Raleway', sans-serif;
-    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-  
-    &::before {
-      color:white;
-      background-color: $cd-btn;
-      border-radius: 50%;
-      display: inline-flex;
-      width: 1.5rem;
-      height: 1.5rem;
-      align-items: center;
-      justify-content: center;
-      margin-left: -1.7rem;
-      margin-right: 1.5rem;
-    }
-  
-    &.unrestaurant::before {
-      content: '1';
-    }
-  
-    &.composermenu::before {
-      content: '2';
-    }
-  
-    &.degusterrestaurant::before {
-      content: '3';
-    }
-  }
-  
-  /* Section Restaurant */
-  
-  section#resrvationmenu {
-    display: flex;
-    flex-direction: column;
+.fonctionnement i:hover {
+  color: $cd-btn;
 }
 
-section#resrvationmenu h1, section#resrvationmenu h4{
+.fonctionnement {
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: small;
+    padding-left: 1rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+
+  @media screen and (min-width: 768px) {
+    display: initial;
+    font-size: 0.5rem;
+    margin: auto;
+  }
+}
+
+i.fas.fa-map-marker-alt {
+  padding: 1.2rem 1.2rem 1.2rem 0rem;
+}
+
+.fonctionnement p {
+  border: 1px solid #f2f2f2;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
+
+  &::before {
+    color: white;
+    background-color: $cd-btn;
+    border-radius: 50%;
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1.7rem;
+    margin-right: 1.5rem;
+  }
+
+  &.unrestaurant::before {
+    content: '1';
+  }
+
+  &.composermenu::before {
+    content: '2';
+  }
+
+  &.degusterrestaurant::before {
+    content: '3';
+  }
+}
+
+/* Section Restaurant */
+
+section#resrvationmenu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(209, 209, 209, 0.2);
+}
+
+.fonctionnement{
+  background-color: white !important;
+}
+
+section#resrvationmenu h1 {
   text-align: center;
 }
 
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-  
-.fonctionnement h4{
+section#resrvationmenu h4 {
+  text-align: center;
+  margin: 1rem;
+}
+
+h2.hfonctionnement {
+  font-size: 20px;
+  margin-left: 5.5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.fonctionnement h4 {
   margin-left: 1rem;
 }
 
-  .figurerestaurants {
-    width: 90%;
-    margin: 1rem;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-  
-    img {
-      width: 100%;
-      height: 120px;
-      border-radius: 20px 20px 0 0;
-      object-fit: cover;
-    }
+.figurerestaurants {
+  width: 90%;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 
-    .restaurant_nouveau{
-      display: flex;
-    }
-    .restaurant_nouveau:after {
-      content: "Nouveau";
-      height: fit-content;
-      background-color:#99E2D0;
-      color:#0b5d49;
-      position: relative;
-      left: -5.5rem;
-      top: 1rem;
-      padding: .3em;
-      border-radius: .2rem;
+  img {
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
   }
-  
-    line-height: 1.5rem;
-    margin-bottom: 5px;
+
+  .restaurant_nouveau {
+    display: flex;
   }
-  
-  .fab, .far {
-    font-weight: 400;
+  .restaurant_nouveau:after {
+    content: 'Nouveau';
+    height: fit-content;
+    background-color: #99e2d0;
+    color: #0b5d49;
     position: relative;
-    left: 6rem;
+    left: -5.5rem;
+    top: 1rem;
+    padding: 0.3em;
+    border-radius: 0.2rem;
   }
 
+  line-height: 1.5rem;
+  margin-bottom: 5px;
+}
+
+section#restaurants h1 {
+  margin-left: 10.5px;
+}
+
+.fab,
+.far {
+  font-weight: 400;
+  position: relative;
+  left: 6rem;
+}
 
 figcaption.restaurantlapalettedugout {
   display: flex;
 }
 
-  section#restaurants {
-    h4 {
-      font-weight: bold;
-      font-size: 1.1rem;
-      margin-bottom: 0;
-      padding-left: .5rem;
-    }
-  
-    p {
-      margin-top: 0;
-      padding-left: .5rem;
-    }
+section#restaurants {
+  h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    padding-left: 0.5rem;
   }
-  
- 
-  .icon.heart{
-    width: 40px;
-    cursor: pointer;
-    margin: 1rem 0 1rem 7rem;
+
+  p {
+    margin-top: 0;
+    padding-left: 0.5rem;
+  }
 }
-  
-  .icon.heart path{
-    fill: transparent;
-    stroke-width: 20px;
-    stroke: #e275a8;
-    stroke-dasharray: 0;
+
+.icon.heart {
+  width: 40px;
+  cursor: pointer;
+    margin: .8rem 0 0 5.5rem;
+}
+
+.icon.heart path {
+  fill: transparent;
+  stroke-width: 20px;
+  stroke: #e275a8;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 500;
+}
+
+.icon.heart:hover path {
+  animation: animate-heart 2s forwards;
+}
+
+@keyframes animate-heart {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  70% {
     stroke-dashoffset: 500;
   }
-  
-  .icon.heart:hover path{
-    animation: animate-heart 2s forwards;
+  80% {
+    stroke-dashoffset: 1000;
+    fill: transparent;
   }
-  
-  @keyframes animate-heart{
-    0%
-    {
-      stroke-dashoffset: 0;
-    }
-    40%
-    {
-      stroke-dashoffset: 500;
-    }
-    80%
-    {
-      stroke-dashoffset: 1000;
-      fill: transparent;
-    }
-    100%
-    {
-      stroke-dashoffset: 1000;
-      fill: rgb(205, 50, 128);
-    }
+  100% {
+    stroke-dashoffset: 1000;
+    fill: rgb(205, 50, 128);
   }
-  
-  section#restaurants {
-    display: flex;
-    flex-direction: column;
-  
-    h1 {
-      margin-left: 1.5rem;
-    }
-  
-    a {
-      font-size: 1.2rem;
-      font-weight: bold;
-      padding: 1.5rem 0 0 1.5rem;
-      display: block;
-      text-decoration: none;
-      color: #000;
-    }
-  }
-
-    
-  @media screen and (min-width: 768px){
-    h1.hfonctionnement{
-     margin-left: initial;
-    } 
 }
 
-  
-  /* Footer */
-  
-  footer {
-    display: flex;
-    height: auto;
-    background-color: #f2f2f2;
-    margin-top: 15px;
-    padding-bottom: 25px;
+span.francaise {
+  color: transparent;
+}
+
+section#restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(209, 209, 209, 0.2);
+  margin-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+
+  a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1.5rem 0 0 1.5rem;
     text-decoration: none;
-  
-    section {
-      display: flex;
-      flex-direction: column;
-      margin-left: 1rem;
-      line-height: 2rem;
-    }
-  
-    img {
-      padding: 1rem 3rem 1rem 0rem;
-    }
-  
-    a {
-      color: black;
-      text-decoration: none;
-    }
-  }
-  
-  .fa-utensils:before {
-    content: "\f2e7";
-    padding-right: .7rem;
-  }
-  
-  .fa-hands-helping:before {
-    content: "\f4c4";
-    padding-right: .2rem;
+    color: #000;
   }
 
 
-  /* responsive tablette*/
+/* Footer */
+
+footer {
+  display: flex;
+  height: auto;
+  background-color: #0c0c0c;
+  padding-bottom: 25px;
+  text-decoration: none;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    line-height: 2rem;
+  }
+
+  img {
+    padding: 1rem 3rem 1rem 0rem;
+  }
+
+  a {
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.fa-utensils:before {
+  content: '\f2e7';
+  padding-right: 0.7rem;
+}
+
+.fa-hands-helping:before {
+  content: '\f4c4';
+  padding-right: 0.2rem;
+}
+
+footer h1 {
+  margin-left: 1.5rem;
+}
+
+/* responsive tablette*/
+
+@media screen and (min-width: 768px) {
+
+  nav {
+    padding-top: 1rem;
+  }
+  header .logo {
+    margin: 0rem 0rem -1rem 0.5rem;
+  }
+
+  nav a {
+    display: initial;
+  }
+  header nav a {
+    margin: 0rem 0rem 0rem 3rem;
+    text-decoration: none;
+    color: #000;
+  }
+
+  section#resrvationmenu {
+    margin-top: 2rem;
+}
+
+  .fonctionnement p {
+    margin-right: 0;
+  }
+
+  .fonctionnement{
+    background-color:initial !important;
+    margin-bottom: 1.5rem;
+  }
+
+  section#restaurants h1 {
+    width: 100%;
+  }
+
+  section#restaurants {
+    flex-direction: initial;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  figure.figurerestaurants {
+    width: 45%;
+  }
+
+  .icon.heart {
+      margin: .8rem 0 0 8.5rem;
+  }
+
+}
+
+/* Responsive Desktop */
+
+@media screen and (min-width: 1280px) {
+  
+  .button1 {
+    width: 25%;
+  }
+
+  .icon.heart {
+      margin-left: 25.5rem;
+  }
+
+}
