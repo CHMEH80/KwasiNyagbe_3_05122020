@@ -168,6 +168,27 @@ form .suitemenus_entree {
   flex: 1;
 }
 
+
+/* animation du fa f00c */
+
+// .check{
+//   -webkit-animation: check 2s infinite linear;
+//           animation: check 2s infinite linear;
+// }
+
+// @keyframes check {
+//   0% {
+//     -webkit-transform: rotate(0deg);
+//             transform: rotate(0deg);
+//   }
+//   100% {
+//     -webkit-transform: rotate(360deg);
+//             transform: rotate(360deg);
+//   }
+// }
+
+/* fanimation */
+
 form .prix {
   font-weight: bold;
   font-size: 0.9rem;
@@ -340,6 +361,7 @@ section#menualafrancaise_menus {
   33% {
     transform: scale(1, 0.07);
     animation-timing-function: cubic-bezier(0.73, 0.01, 0.2, 0.99);
+    
   }
 }
 
