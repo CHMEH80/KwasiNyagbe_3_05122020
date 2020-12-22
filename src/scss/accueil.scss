@@ -69,9 +69,9 @@ nav a {
 
 /* Section Fonctionnement */
 
-.fonctionnement i:hover {
-  color: $cd-btn;
-}
+// .fonctionnement i:hover {
+//   color: $cd-btn;
+// }
 
 .fonctionnement {
   a {
@@ -220,6 +220,7 @@ section#restaurants {
     font-size: 1.1rem;
     margin-bottom: 0;
     padding-left: 0.5rem;
+  
   }
 
   p {
@@ -228,10 +229,11 @@ section#restaurants {
   }
 }
 
+
 .icon.heart {
   width: 40px;
   cursor: pointer;
-    margin: .8rem 0 0 5.5rem;
+    margin: .8rem 0 0 .5rem;
 }
 
 .icon.heart path {
@@ -240,10 +242,6 @@ section#restaurants {
   stroke: #e275a8;
   stroke-dasharray: 0;
   stroke-dashoffset: 500;
-}
-
-.icon.heart:hover path {
-  animation: animate-heart 2s forwards;
 }
 
 @keyframes animate-heart {
@@ -277,8 +275,8 @@ section#restaurants {
 
 
   a {
-    font-size: 1.2rem;
-    font-weight: bold;
+    // font-size: 1.2rem;
+    // font-weight: bold;
     padding: 1.5rem 0 0 1.5rem;
     text-decoration: none;
     color: #000;
@@ -325,149 +323,10 @@ footer h1 {
   margin-left: 1.5rem;
 }
 
-/* Animation loading spinner */
-
-
-
-// .loader,
-// .loader:after {
-//   border-radius: 50%;
-//   width: 10em;
-//   height: 10em;
-// }
-// .loader {
-//   margin: 60px auto;
-//   font-size: 10px;
-//   position: relative;
-//   text-indent: -9999em;
-//   border-top: 1.1em solid rgba(255, 255, 255, 0.2);
-//   border-right: 1.1em solid rgba(255, 255, 255, 0.2);
-//   border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
-//   border-left: 1.1em solid #ffffff;
-//   -webkit-transform: translateZ(0);
-//   -ms-transform: translateZ(0);
-//   transform: translateZ(0);
-//   -webkit-animation: load8 1.1s infinite linear;
-//   animation: load8 1.1s infinite linear;
-// }
-// @-webkit-keyframes load8 {
-//   0% {
-//     -webkit-transform: rotate(0deg);
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     -webkit-transform: rotate(360deg);
-//     transform: rotate(360deg);
-//   }
-// }
-// @keyframes load8 {
-//   0% {
-//     -webkit-transform: rotate(0deg);
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     -webkit-transform: rotate(360deg);
-//     transform: rotate(360deg);
-//   }
-// }
-
-
-
-
-// $green: #008744;
-// $blue: #0057e7;
-// $red: #d62d20;
-// $yellow: #ffa700;
-// $white: #eee;
-
-// // scaling... any units
-// $width: 100px;
-
-// .loader {
-//   position: relative;
-//   margin: 0 auto;
-//   width: $width;
-//   &:before {
-//     content: '';
-//     display: block;
-//     padding-top: 100%;
-//   }
-// }
-
-// .circular {
-//   animation: rotate 2s linear infinite;
-//   height: 100%;
-//   transform-origin: center center;
-//   width: 100%;
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-//   margin: auto;
-// }
-
-// .path {
-//   stroke-dasharray: 1, 200;
-//   stroke-dashoffset: 0;
-//   animation: dash 1.5s ease-in-out, color 6s ease-in-out ;
-//   stroke-linecap: round;
-// }
-
-// @keyframes rotate {
-//   100% {
-//     transform: rotate(360deg);
-//   }
-// }
-
-// @keyframes dash {
-//   0% {
-//     stroke-dasharray: 1, 200;
-//     stroke-dashoffset: 0;
-//   }
-//   50% {
-//     stroke-dasharray: 89, 200;
-//     stroke-dashoffset: -35px;
-//   }
-//   100% {
-//     stroke-dasharray: 89, 200;
-//     stroke-dashoffset: -124px;
-//   }
-// }
-
-// @keyframes color {
-//   100%,
-//   0% {
-//     stroke: $red;
-//   }
-//   40% {
-//     stroke: $blue;
-//   }
-//   66% {
-//     stroke: $green;
-//   }
-//   80%,
-//   90% {
-//     stroke: $yellow;
-//   }
-// }
-
-// // demo-specific
-// body {
-//   background-color: white;
-// }
-// .showbox {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-//   padding: 5%;
-// }
 
 /* responsive tablette*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
 
   nav {
     padding-top: 1rem;
@@ -502,6 +361,10 @@ footer h1 {
     width: 100%;
   }
 
+  section#restaurants h4{
+    margin-right: 0;
+  }
+
   section#restaurants {
     flex-direction: initial;
     justify-content: space-around;
@@ -521,7 +384,17 @@ footer h1 {
 
 /* Responsive Desktop */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px){
+
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#section_restaurants {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
   
   .button1 {
     width: 25%;

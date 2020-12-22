@@ -1,3 +1,10 @@
+
+@import "accueil.scss";
+@import "menus.scss";
+@import"app_scss";
+
+
+
 $cd-btn: #9356dc;
 $cd-btn-start: rgba(147,86,220, 1);
 $cd-btn-end: rgba(147,86,220, .5);
@@ -16,7 +23,3 @@ $color2: #38e2ee;
 $deeper: darken($color, 5%);
 $lighter: lighten($color2, 10%);
 
-
-@import "accueil.scss";
-@import "menus.scss";
-@import"app_scss"

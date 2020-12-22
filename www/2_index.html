@@ -11,11 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="css/style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-
         <title>Ohmyfood</title>
     </head>
 
 <body>
+    <div id="container_2">
     <header>
         <a href="index.html"> <i class="fas fa-long-arrow-alt-left"></i></a>
         <img src="images/logo/ohmyfood@2x.svg" class="logo1" />
@@ -41,11 +41,11 @@
         </figure>
     </section>
     <section id="menualafrancaise_menus">
-        <form>
-            <fieldset class=" menu__item menu__item--1 menu__item--current">
+        <form class="menus">
+            <fieldset  class="menus_au_choix">
                 <legend>ENTRÉES</legend>
-                <ul>
-                    <li >
+                <ul class="menus_uls">
+                    <li  class="menus_ul entree1">
                         <input id="menus_entree1" type="checkbox" name="entrance" />
                         <label for="menus_entree1">
                             <span class="menus_entree">Fricassée d'escargot</span>
@@ -54,7 +54,7 @@
                         </label>
                         <label class="check" for="menus_entree1"> </label>
                     </li>
-                    <li>
+                    <li class="menus_ul entree2" >
                         <input id="menus_entree2" type="checkbox" name="entrance" />
                         <label for="menus_entree2">
                             <span class="menus_entree">Foie gras de canard mi-cuit</span>
@@ -63,7 +63,7 @@
                         </label>
                         <label class="check" for="menus_entree2"> </label>
                     </li>
-                    <li>
+                    <li class="menus_ul entree3">
                         <input id="menus_entree3" type="checkbox" name="entrance" />
                         <label for="menus_entree3">
                             <span class="menus_entree">Oeuf au plat</span>
@@ -73,12 +73,11 @@
                         <label class="check" for="menus_entree3"> </label>
                     </li>
                 </ul>
-                <div class="menu__item-accent menu__item-accent--active"></div>
             </fieldset>
-            <fieldset class="menu__item menu__item--2">
+            <fieldset  class="menus_au_choix">
                 <legend>PLATS</legend>
-                <ul>
-                    <li>
+                <ul class="menus_uls">
+                    <li class="menus_ul entree4">
                         <input id="menus-plats1" type="checkbox" name="maindish" />
                         <label for="menus-plats1">
                             <span class="menus_entree">Filet de boeuf aux herbes</span>
@@ -87,7 +86,7 @@
                         </label>
                         <label class="check" for="menus-plats1"> </label>
                     </li>
-                    <li>
+                    <li class="menus_ul entree5">
                         <input id="menus-plats2" type="checkbox" name="maindish" />
                         <label for="menus-plats2">
                             <span class="menus_entree">Parmentier de queue de boeuf</span>
@@ -96,7 +95,7 @@
                         </label>
                         <label class="check" for="menus-plats2"> </label>
                     </li>
-                    <li>
+                    <li class="menus_ul entree6">
                         <input id="menus-plats3" type="checkbox" name="maindish" />
                         <label for="menus-plats3">
                             <span class="menus_entree">Filet de turbot</span>
@@ -106,12 +105,11 @@
                         <label class="check" for="menus-plats3"> </label>
                     </li>
                 </ul>
-                <div class="menu__item-accent"></div>
             </fieldset >
-            <fieldset class="menu__item menu__item--3">
+            <fieldset  class="menus_au_choix">
                 <legend>DESSERTS</legend>
-                <ul>
-                    <li>
+                <ul class="menus_uls">
+                    <li class="menus_ul entree7">
                         <input id="menus-desserts1" type="checkbox" name="dessert" />
                         <label for="menus-desserts1">
                             <span class="menus_entree">Paris-Brest</span>
@@ -120,7 +118,7 @@
                         </label>
                         <label class="check" for="menus-desserts1"> </label>
                     </li>
-                    <li>
+                    <li class="menus_ul entree8">
                         <input id="menus-desserts2" type="checkbox" name="dessert" />
                         <label for="menus-desserts2">
                             <span class="menus_entree">Macaron au chocolat d'exception
@@ -130,7 +128,7 @@
                         </label>
                         <label class="check" for="menus-desserts2"> </label>
                     </li>
-                    <li>
+                    <li class="menus_ul entree9">
                         <input id="menus-desserts3" type="checkbox" name="dessert" />
                         <label for="menus-desserts3">
                             <span class="menus_entree">Mousse au chocolat </span>
@@ -140,12 +138,9 @@
                         <label class="check" for="menus-desserts3"> </label>
                     </li>
                 </ul>
-                <div class="menu__item-accent"></div>
             </fieldset>
             <input class="button" type="submit" value="Commander" />
         </form>
-        <div class="menu__open-accent--1"></div>
-        <div class="menu__open-accent--2"></div>
     </section>
     <footer>
         <section id="apropos">
@@ -156,6 +151,7 @@
             <a href="mailto:contact@class.com">Contact</a>
         </section>
     </footer>
+</div>
 </body>
 
 </html>
