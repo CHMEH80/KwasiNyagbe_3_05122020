@@ -51,7 +51,7 @@ body {
   margin: 0;
 }
 
-section#menualafrancaise_menus {
+#menualafrancaise_menus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,8 +279,12 @@ form .button {
     justify-content: center;
   }
 
-  section#menualafrancaise_menus {
+  #menualafrancaise_menus {
     flex-direction: initial;
+  }
+
+  section#restaurants h4 {
+    margin-right: 0;
   }
 
   form fieldset {
@@ -289,7 +293,7 @@ form .button {
     border-radius: 1rem;
   }
 
-  section#menualafrancaise img {
+ section#menualafrancaise img {
     height: 407px;
   }
 
@@ -298,5 +302,13 @@ form .button {
   }
 }
 
-/* Animation page de menus */
+
+
+@media screen and (min-width: 1280px) {
+  #container_2 {
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
+  }
+}
+
 
