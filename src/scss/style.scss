@@ -18,4 +18,6 @@ $lighter: lighten($color2, 10%);
 
 @import "./accueil.scss";
 @import "./menus.scss";
-@import "app_scss.scss";
+@import "animations.scss";
+@import "breakpoints-accueil.scss";
+@import "breakpoints-pages-menus.scss";

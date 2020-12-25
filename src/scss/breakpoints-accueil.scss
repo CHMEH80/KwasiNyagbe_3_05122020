@@ -1,0 +1,105 @@
+/* Responsive Mobile S */
+
+@media screen and (min-width: 320px) {
+  .fa-accueil {
+    margin: 1rem 0 0 4rem;
+  }
+}
+
+/* Responsive Mobile 375px */
+
+@media screen and (min-width: 375px) {
+  .fa-accueil {
+    margin: 1rem 0 0 8rem;
+  }
+}
+
+/* Responsive tablette*/
+
+@media screen and (min-width: 768px) {
+  .fonctionnement {
+    display: initial;
+    font-size: 0.5rem;
+    margin: auto;
+  }
+  nav {
+    padding-top: 1rem;
+  }
+  header .logo {
+    margin: 0rem 0rem -1rem 0.5rem;
+  }
+
+  nav a {
+    display: initial;
+  }
+  header nav a {
+    margin: 0rem 0rem 0rem 3rem;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .button1{
+    margin-top: 2rem;
+  }
+
+  section#resrvationmenu {
+    margin-top: 2rem;
+  }
+
+  .fonctionnement p {
+    margin-right: 0;
+  }
+
+  .fonctionnement {
+    background-color: initial !important;
+    margin-bottom: 1.5rem;
+  }
+
+  section#restaurants h1 {
+    width: 100%;
+    margin-left: 23px;
+  }
+
+  section#restaurants h4 {
+    margin-right: 0;
+  }
+
+  section#restaurants {
+    flex-direction: initial;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  figure.figurerestaurants {
+    width: 45%;
+  }
+  .fa-accueil {
+    margin: 1rem 0 0 10rem;
+  }
+}
+
+/* Responsive Desktop */
+
+@media screen and (min-width: 1024px) {
+  .fa-accueil {
+    margin: 1rem 0 0 11.5rem;
+  }
+
+  .container2 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .button1 {
+    width: 25%;
+  }
+}
+
+/* Desktop 1440px et plus */
+
+@media screen and (min-width: 1440px) {
+  .fa-accueil {
+    margin: 1rem 0 0 21rem;
+  }
+}

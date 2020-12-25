@@ -1,8 +1,4 @@
 /*Définition des polices personnalisées*/
-/*
-*{
-  border: 1px solid blue;
-}*/
 
 h1 h2,
 h3,
@@ -38,14 +34,14 @@ nav a {
   display: flex;
   justify-content: center;
   border-top-style: groove;
-  background-color: #F2F2FF;
+  background-color: #F2F2F1;
   border-bottom: .1px solid rgba(209, 209, 209, .2);
 }
 
 
 .button1 {
   background: linear-gradient(172deg, #ff79da 21%, #9356dc 79%);
-  box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
+  box-shadow: 0 0 0.5rem 0.3rem #E5E5FE;
   color: white;
   width: 63%;
   border: none;
@@ -61,17 +57,12 @@ nav a {
   margin-bottom: 3rem;
   &:hover {
     transition-delay: 2s;
-    // transform: scale(1.13);
     background: linear-gradient(rgb(204, 81, 183) 50%, rgb(238, 164, 218) 80%);
     box-shadow: 5px 5px #cc51b7;
   }
 }
 
 /* Section Fonctionnement */
-
-// .fonctionnement i:hover {
-//   color: $cd-btn;
-// }
 
 .fonctionnement {
   a {
@@ -84,20 +75,17 @@ nav a {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-
-  @media screen and (min-width: 768px) {
-    display: initial;
-    font-size: 0.5rem;
-    margin: auto;
-  }
 }
 
 i.fas.fa-map-marker-alt {
   padding: 1.2rem 1.2rem 1.2rem 0rem;
 }
 
+i.fas:hover{
+  color: #9356dc;
+}
+
 .fonctionnement p {
-  border: 1px solid #f2f2f2;
   margin: 0.5rem 1rem 0.5rem 1rem;
   display: inline-block;
   padding: 1rem;
@@ -130,13 +118,16 @@ i.fas.fa-map-marker-alt {
     content: '3';
   }
 }
+.fonctionnement p:hover{
+  background-color: rgba(255, 121, 209, .2);
+}
 
 /* Section Restaurant */
 
 section#resrvationmenu {
   display: flex;
   flex-direction: column;
-  background-color: rgba(209, 209, 209, 0.2);
+  background-color: #e5e5e5;;
 }
 
 .fonctionnement{
@@ -203,11 +194,9 @@ section#restaurants h1 {
   margin-left: 10.5px;
 }
 
-.fab,
-.far {
-  font-weight: 400;
-  position: relative;
-  left: 6rem;
+
+.fa-accueil {
+  margin: 1rem 0 0 8rem;
 }
 
 figcaption.restaurantlapalettedugout {
@@ -229,37 +218,6 @@ section#restaurants {
   }
 }
 
-.icon.heart {
-  width: 40px;
-  cursor: pointer;
-    margin: .8rem 0 0 .5rem;
-}
-
-.icon.heart path {
-  fill: transparent;
-  stroke-width: 20px;
-  stroke: #e275a8;
-  stroke-dasharray: 0;
-  stroke-dashoffset: 500;
-}
-
-@keyframes animate-heart {
-  0% {
-    stroke-dashoffset: 0;
-  }
-  70% {
-    stroke-dashoffset: 500;
-  }
-  80% {
-    stroke-dashoffset: 1000;
-    fill: transparent;
-  }
-  100% {
-    stroke-dashoffset: 1000;
-    fill: rgb(205, 50, 128);
-  }
-}
-
 span.francaise {
   color: transparent;
 }
@@ -267,15 +225,13 @@ span.francaise {
 section#restaurants {
   display: flex;
   flex-direction: column;
-  background-color: rgba(209, 209, 209, 0.2);
+  background-color: #e5e5e5;;
   margin-top: 1.5rem;
   padding-bottom: 3rem;
 }
 
 
   a {
-    // font-size: 1.2rem;
-    // font-weight: bold;
     padding: 1.5rem 0 0 1.5rem;
     text-decoration: none;
     color: #000;
@@ -320,87 +276,4 @@ footer {
 
 footer h1 {
   margin-left: 1.5rem;
-}
-
-
-/* responsive tablette*/
-
-@media screen and (min-width: 768px){
-
-  nav {
-    padding-top: 1rem;
-  }
-  header .logo {
-    margin: 0rem 0rem -1rem 0.5rem;
-  }
-
-  nav a {
-    display: initial;
-  }
-  header nav a {
-    margin: 0rem 0rem 0rem 3rem;
-    text-decoration: none;
-    color: #000;
-  }
-
-  section#resrvationmenu {
-    margin-top: 2rem;
-}
-
-  .fonctionnement p {
-    margin-right: 0;
-  }
-
-  .fonctionnement{
-    background-color:initial !important;
-    margin-bottom: 1.5rem;
-  }
-
-  section#restaurants h1 {
-    width: 100%;
-  }
-
-  section#restaurants h4{
-    margin-right: 0;
-  }
-
-  section#restaurants {
-    flex-direction: initial;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 0;
-  }
-
-  figure.figurerestaurants {
-    width: 45%;
-  }
-
-  .icon.heart {
-      margin: .8rem 0 0 8.5rem;
-  }
-
-}
-
-/* Responsive Desktop */
-
-@media screen and (min-width: 1280px){
-
-  body {
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-#section_restaurants {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-  
-  .button1 {
-    width: 25%;
-  }
-
-  .icon.heart {
-      margin-left: 25.5rem;
-  }
-
 }

@@ -1,15 +1,28 @@
-// *{
-//     border: 1px solid blue;
-// }
+
+/* Header */
 
 header {
   display: flex;
+}
+
+header .logo1 {
+  margin: 1rem 2rem 1rem -.5rem;
 }
 
 i.fas.fa-long-arrow-alt-left {
   margin: 0rem 2.5rem 1.5rem 0.5rem;
   font-size: 2rem;
   position: relative;
+}
+
+/* Section menus */
+
+.fa-restaurants {
+  margin: 1rem 0 0 2rem;
+}
+
+.fa-restaurants-3 {
+  margin: 1rem 0 0 4rem;
 }
 
 section#menualafrancaise img {
@@ -72,8 +85,8 @@ body {
 }
 
 form {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  // display: -webkit-box;
+  // display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -105,23 +118,7 @@ form li label:first-of-type {
   -ms-flex: 1;
   flex: 1;
 }
-/* Animation des menus*/
 
-.fa,
-.fas,
-form li label:last-of-type,
-.far,
-.fal,
-.fad,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
 
 form input[type='checkbox']:checked ~ label:last-of-type {
   display: -webkit-box;
@@ -169,26 +166,6 @@ form .suitemenus_entree {
   flex: 1;
 }
 
-
-/* animation du fa f00c */
-
-// .check{
-//   -webkit-animation: check 2s infinite linear;
-//           animation: check 2s infinite linear;
-// }
-
-// @keyframes check {
-//   0% {
-//     -webkit-transform: rotate(0deg);
-//             transform: rotate(0deg);
-//   }
-//   100% {
-//     -webkit-transform: rotate(360deg);
-//             transform: rotate(360deg);
-//   }
-// }
-
-/* fanimation */
 
 form .prix {
   font-weight: bold;
@@ -249,8 +226,8 @@ select {
 }
 
 form .button {
-  -webkit-box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
-  box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
+  -webkit-box-shadow: 0 0 0.5rem 0.3rem #E5E5FE;
+  box-shadow: 0 0 0.5rem 0.3rem #E5E5FE;
   background: linear-gradient(172deg, #ff79da 21%, #9356dc 79%);
   color: white;
   border: none;
@@ -265,49 +242,6 @@ form .button {
     transition-delay: 2s;
     background: linear-gradient(rgb(204, 81, 183) 50%, rgb(238, 164, 218) 80%);
     box-shadow: 5px 5px #cc51b7;
-  }
-}
-
-/* Responsive Tablette */
-
-@media screen and (min-width: 768px) {
-  header {
-    justify-content: space-around;
-  }
-
-  figcaption.menus_alafrancaise {
-    justify-content: center;
-  }
-
-  #menualafrancaise_menus {
-    flex-direction: initial;
-  }
-
-  section#restaurants h4 {
-    margin-right: 0;
-  }
-
-  form fieldset {
-    border: 1px solid grey;
-    padding: 4rem;
-    border-radius: 1rem;
-  }
-
- section#menualafrancaise img {
-    height: 407px;
-  }
-
-  input.button {
-    margin-top: 2rem;
-  }
-}
-
-
-
-@media screen and (min-width: 1280px) {
-  #container_2 {
-    margin-left: 7rem !important;
-    margin-right: 7rem !important;
   }
 }
 

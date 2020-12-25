@@ -1,0 +1,64 @@
+/* Responsive Mobile 375px */
+
+@media screen and (min-width: 375px) {
+  .fa-restaurants {
+    margin: 1rem 0 0 6rem;
+  }
+
+  .fa-restaurants-3 {
+    margin: 1rem 0 0 8rem;
+  }
+}
+
+/* Responsive Tablette */
+
+@media screen and (min-width: 768px) {
+  header {
+    justify-content: space-around;
+  }
+
+  figcaption.menus_alafrancaise {
+    justify-content: center;
+  }
+
+  #menualafrancaise_menus {
+    flex-direction: initial;
+  }
+
+  section#restaurants h4 {
+    margin-right: 0;
+  }
+
+  form fieldset {
+    border: 1px solid grey;
+    padding: 4rem;
+    border-radius: 1rem;
+  }
+
+  section#menualafrancaise img {
+    height: 407px;
+  }
+
+  .fa-restaurants,
+  .fa-restaurants-3 {
+    margin: 1rem 0 0 27rem;
+  }
+
+  input.button {
+    margin-top: 2rem;
+  }
+}
+
+/* responsive Desktop */
+
+@media screen and (min-width: 1024px) {
+  #container_2 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .fa-restaurants,
+  .fa-restaurants-3 {
+    margin: 1rem 0 0 27rem;
+  }
+}
