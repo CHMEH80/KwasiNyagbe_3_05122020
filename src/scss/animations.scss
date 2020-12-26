@@ -2,9 +2,9 @@
 
 i.fillHover:hover {
   font-weight: bold;
-  background-color: -webkit-linear-gradient(327deg, #ff79da, #9356dc);
+  background-color: -webkit-linear-gradient(327deg, $couleur_2, $couleur_1);
   background-size: 400% 400%;
-  -webkit-text-fill-color: #9356dc;
+  -webkit-text-fill-color: rgba(147,86,220, 1.5);
   cursor: pointer;
   -webkit-animation: AnimationName 2s ease infinite;
   -moz-animation: AnimationName 2s ease infinite;
@@ -51,10 +51,10 @@ i.fillHover {
 /*Animation spiner*/
 
 .loading1 {
-  border-top: 10px solid #9356dc;
-  border-bottom: 10px solid #ff79da;
-  border-left: 10px solid #99e2d0;
-  border-right: 10px solid #f0c6c6;
+  border-top: 10px solid $couleur_1;
+  border-bottom: 10px solid $couleur_2;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -101,7 +101,7 @@ i.fillHover {
 }
 
 .loading {
-  animation: fadeOut 2s ease-in-out;
+  animation: fadeOut 1.5s ease-in-out;
   animation-fill-mode: forwards;
 }
 

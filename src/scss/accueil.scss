@@ -40,9 +40,9 @@ nav a {
 
 
 .button1 {
-  background: linear-gradient(172deg, #ff79da 21%, #9356dc 79%);
+  background: linear-gradient(172deg, $couleur_2 21%, $couleur_1 79%);
   box-shadow: 0 0 0.5rem 0.3rem #E5E5FE;
-  color: white;
+  color: $cd-txt;
   width: 63%;
   border: none;
   text-align: center;
@@ -82,7 +82,7 @@ i.fas.fa-map-marker-alt {
 }
 
 i.fas:hover{
-  color: #9356dc;
+  color: $couleur_1;
 }
 
 .fonctionnement p {

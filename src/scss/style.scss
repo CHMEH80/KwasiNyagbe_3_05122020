@@ -1,20 +1,24 @@
+// Colors //
+
 $cd-btn: #9356dc;
 $cd-btn-start: rgba(147,86,220, 1);
 $cd-btn-end: rgba(147,86,220, .5);
+
+
+// $cd-figcation_btn: #9356dc;
+
+$couleur_1:#9356dc;
+$couleur_2:#ff79da;
+$couleur_3:#99e2d0;
 $cd-txt: white;
 
-$cd-figcation_btn: #9356dc;
 
-$primary-color:#9356dc;
-$secondary-color:#ff79da;
-$tertiary-color:#99e2d0;
+// $color: #5533ff;
+// $color2: #38e2ee;
+// $deeper: darken($color, 5%);
+// $lighter: lighten(couleur_1, 10%);
 
-
-// Colors //
-$color: #5533ff;
-$color2: #38e2ee;
-$deeper: darken($color, 5%);
-$lighter: lighten($color2, 10%);
+// Les imports
 
 @import "./accueil.scss";
 @import "./menus.scss";
