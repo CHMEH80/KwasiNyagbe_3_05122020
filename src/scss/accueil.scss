@@ -1,6 +1,6 @@
 /*Définition des polices personnalisées*/
 
-h1 h2,
+h2,
 h3,
 h4,
 h5,
@@ -11,7 +11,7 @@ nav a {
   font-family: 'Roboto', sans-serif;
 }
 
-footer h1{
+footer h1 {
   font-family: 'Shrikhand', cursive;
   color: white;
 }
@@ -34,14 +34,13 @@ nav a {
   display: flex;
   justify-content: center;
   border-top-style: groove;
-  background-color: #F2F2F1;
-  border-bottom: .1px solid rgba(209, 209, 209, .2);
+  background-color: #f2f2f1;
+  border-bottom: 0.1px solid rgba(209, 209, 209, 0.2);
 }
-
 
 .button1 {
   background: linear-gradient(172deg, $couleur_2 21%, $couleur_1 79%);
-  box-shadow: 0 0 0.5rem 0.3rem #E5E5FE;
+  box-shadow: 0 0 0.5rem 0.3rem $couleur-de-fond;
   color: $cd-txt;
   width: 63%;
   border: none;
@@ -81,7 +80,7 @@ i.fas.fa-map-marker-alt {
   padding: 1.2rem 1.2rem 1.2rem 0rem;
 }
 
-i.fas:hover{
+i.fas:hover {
   color: $couleur_1;
 }
 
@@ -94,7 +93,7 @@ i.fas:hover{
   box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 
   &::before {
-    color: white;
+    color: $cd-txt;
     background-color: $cd-btn;
     border-radius: 50%;
     display: inline-flex;
@@ -118,8 +117,8 @@ i.fas:hover{
     content: '3';
   }
 }
-.fonctionnement p:hover{
-  background-color: rgba(255, 121, 209, .2);
+.fonctionnement p:hover {
+  background-color: rgba(255, 121, 209, 0.2);
 }
 
 /* Section Restaurant */
@@ -127,10 +126,10 @@ i.fas:hover{
 section#resrvationmenu {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;;
+  background-color: $couleur-de-fond;
 }
 
-.fonctionnement{
+.fonctionnement {
   background-color: white !important;
 }
 
@@ -160,7 +159,7 @@ main {
 .figurerestaurants {
   width: 90%;
   margin: 1rem;
-  background-color: white;
+  background-color: $cd-txt;
   border-radius: 20px;
   box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 
@@ -194,7 +193,6 @@ section#restaurants h1 {
   margin-left: 10.5px;
 }
 
-
 .fa-accueil {
   margin: 1rem 0 0 8rem;
 }
@@ -209,7 +207,6 @@ section#restaurants {
     font-size: 1.1rem;
     margin-bottom: 0;
     padding-left: 0.5rem;
-  
   }
 
   p {
@@ -225,18 +222,16 @@ span.francaise {
 section#restaurants {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;;
+  background-color: #e5e5e5;
   margin-top: 1.5rem;
   padding-bottom: 3rem;
 }
 
-
-  a {
-    padding: 1.5rem 0 0 1.5rem;
-    text-decoration: none;
-    color: #000;
-  }
-
+a {
+  padding: 1.5rem 0 0 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
 
 /* Footer */
 
@@ -259,7 +254,7 @@ footer {
   }
 
   a {
-    color:white;
+    color: white;
     text-decoration: none;
   }
 }
