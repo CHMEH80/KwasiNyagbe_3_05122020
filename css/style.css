@@ -218,10 +218,10 @@ i.fas.fa-arrow-left {
   position: relative;
 }
 .fa-restaurants {
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 1rem;
 }
 .fa-restaurants-3 {
-  margin: 1rem 0 0 4rem;
+  margin: 1rem 0 0 3rem;
 }
 section#menualafrancaise img {
   width: 100%;
@@ -241,7 +241,7 @@ figure.figureremenus {
 }
 figure.figureremenus h1 {
   font-family: Shrikhand, cursive;
-  margin-left: 0.4rem;
+  margin-left: 1.4rem;
 }
 figcaption.menus_alafrancaise {
   display: flex;
@@ -255,15 +255,15 @@ body {
   margin: 0;
 }
 #menualafrancaise_menus {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-orient: vertical;
+  /* -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  -ms-flex-direction: column; */
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  /* -webkit-box-pack: center;
+  -ms-flex-pack: center; */
   justify-content: center;
   background-color: #e5e5e5;
 }
@@ -680,7 +680,7 @@ label.check::before {
 }
 @media screen and (min-width: 375px) {
   .fa-restaurants {
-    margin: 1rem 0 0 6rem;
+    margin: 1rem 0 0 4rem;
   }
   .fa-restaurants-3 {
     margin: 1rem 0 0 8rem;

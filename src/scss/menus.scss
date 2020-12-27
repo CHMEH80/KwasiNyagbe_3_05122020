@@ -21,7 +21,7 @@ i.fas.fa-arrow-left {
 }
 
 .fa-restaurants-3 {
-  margin: 1rem 0 0 4rem;
+  margin: 1rem 0 0 3rem;
 }
 
 section#menualafrancaise img {
@@ -45,7 +45,7 @@ figure.figureremenus {
 
 figure.figureremenus h1 {
   font-family: 'Shrikhand', cursive;
-  margin-left: 0.4rem;
+  margin-left: 1.4rem;
 }
 
 figcaption.menus_alafrancaise {
@@ -64,15 +64,15 @@ body {
 }
 
 #menualafrancaise_menus {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  // display: -webkit-box;
+  // display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  // -webkit-box-orient: vertical;
+  // // -webkit-box-direction: normal;
+  // -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  // -webkit-box-pack: center;
+  // -ms-flex-pack: center;
   justify-content: center;
   background-color: #e5e5e5;
 }
@@ -85,10 +85,10 @@ body {
 
 form {
   display: flex;
-  -ms-flex-wrap: wrap;
+  // -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  // -webkit-box-pack: center;
+  // -ms-flex-pack: center;
   justify-content: center;
   padding-bottom: 3rem;
   margin: 0 1rem 0 1rem;
