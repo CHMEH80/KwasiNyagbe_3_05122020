@@ -9,7 +9,7 @@ header .logo1 {
   margin: 1rem 2rem 1rem -.5rem;
 }
 
-i.fas.fa-long-arrow-alt-left {
+i.fas.fa-arrow-left {
   margin: 0rem 2.5rem 1.5rem 0.5rem;
   font-size: 2rem;
   position: relative;
@@ -85,15 +85,12 @@ body {
 }
 
 form {
-  // display: -webkit-box;
-  // display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  // width: 93%;
   padding-bottom: 3rem;
   margin: 0 1rem 0 1rem;
 }
@@ -103,26 +100,17 @@ form input[type='checkbox'] {
 }
 
 form li label:first-of-type {
-  // display: -webkit-box;
-  // display: -ms-flexbox;
   display: flex;
-  // -webkit-box-pack: justify;
-  // -ms-flex-pack: justify;
   justify-content: space-between;
-  // -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 0.1px;
   height: 100%;
   border-radius: 1rem;
-  // -webkit-box-flex: 1;
-  // -ms-flex: 1;
   flex: 1;
 }
 
 
 form input[type='checkbox']:checked ~ label:last-of-type {
-  // display: -webkit-box;
-  // display: -ms-flexbox;
   display: flex;
 }
 
@@ -161,8 +149,6 @@ form .suitemenus_entree {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  // -webkit-box-flex: 1;
-  // -ms-flex: 1;
   flex: 1;
 }
 
@@ -204,8 +190,6 @@ form ul {
 }
 
 form li {
-  // display: -webkit-box;
-  // display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   height: 3.8rem;
@@ -214,7 +198,6 @@ form li {
   padding-left: 0.6rem;
   border-radius: 1rem;
   background-color: #fff;
-  // -webkit-box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
   box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
 }
 
@@ -245,4 +228,18 @@ form .button {
   }
 }
 
+
+.pnouveau,
+.pnouveau-1 {
+    left: 14rem;
+    margin-top: 18px !important;
+    background-color: #99e2d0;
+    color: #0b5d49;
+    padding: 0.3em;
+    border-radius: 0.2rem;
+    margin-left: -6rem;
+    height: 2rem;
+    width: 5.5rem;
+    text-align: center;
+}
 
