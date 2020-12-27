@@ -730,7 +730,7 @@ label.check::before {
   }
 }
 
-@media screen and (min-width: 1980px) {
+@media screen and (min-width: 1920px) {
   .fa-accueil {
     margin: 1rem 0 0 37rem;
   }
