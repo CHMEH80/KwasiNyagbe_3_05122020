@@ -6,12 +6,22 @@
   }
 }
 
+img.noteenchantee,
+img.palettedugout{
+  width: 288.05px;
+}
+
 /* Responsive Mobile 375px */
 
 @media screen and (min-width: 375px) {
   .fa-accueil {
     margin: 1rem 0 0 8rem;
   }
+}
+
+img.noteenchantee,
+img.palettedugout{
+  width: 337.5px;
 }
 
 /* Responsive tablette*/
@@ -79,11 +89,17 @@
   }
 }
 
+
+img.noteenchantee,
+img.palettedugout{
+  width: 345.6px;
+}
+
 /* Responsive Desktop */
 
 @media screen and (min-width: 1024px) {
   .fa-accueil {
-    margin: 1rem 0 0 11.5rem;
+    margin: 1rem 0 0 20rem;
   }
   
   i.fas{
@@ -98,6 +114,10 @@
   .button1 {
     width: 25%;
   }
+}
+
+img.noteenchantee{
+  width: 382.05px;
 }
 
 /* Desktop 1440px et plus */
