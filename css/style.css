@@ -592,6 +592,12 @@ label.check::before {
     margin: 1rem 0 0 8rem;
   }
 }
+
+@media screen and (min-width: 425px) {
+  .fa-accueil {
+    margin: 1rem 0 0 10rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .fonctionnement {
     display: initial;
@@ -647,7 +653,7 @@ label.check::before {
 }
 @media screen and (min-width: 1024px) {
   .fa-accueil {
-    margin: 1rem 0 0 20rem;
+    margin: 1rem 0 0 11rem;
   }
   i.fas {
     font-size: 0.7rem;
@@ -660,6 +666,13 @@ label.check::before {
     width: 25%;
   }
 }
+
+@media screen and (min-width: 1280px){
+.fa-accueil {
+    margin: 1rem 0 0 20rem;
+}
+}
+
 @media screen and (min-width: 1440px) {
   .fa-accueil {
     margin: 1rem 0 0 21rem;
@@ -672,6 +685,10 @@ label.check::before {
   .fa-restaurants-3 {
     margin: 1rem 0 0 8rem;
   }
+
+  header .logo {
+    margin: 1rem 2rem 1rem 7.5rem;
+}
 }
 @media screen and (min-width: 768px) {
   header {
