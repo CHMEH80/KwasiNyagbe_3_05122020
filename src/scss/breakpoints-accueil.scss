@@ -6,15 +6,17 @@
   }
 }
 
-
 /* Responsive Mobile 375px */
 
 @media screen and (min-width: 375px) {
   .fa-accueil {
     margin: 1rem 0 0 8rem;
   }
-}
 
+  header .logo {
+    margin: 1rem 2rem 1rem 5.5rem;
+  }
+}
 
 /* Responsive tablette*/
 
@@ -40,7 +42,7 @@
     color: #000;
   }
 
-  .button1{
+  .button1 {
     margin-top: 2rem;
   }
 
@@ -87,9 +89,9 @@
   .fa-accueil {
     margin: 1rem 0 0 20rem;
   }
-  
-  i.fas{
-    font-size: .7rem;
+
+  i.fas {
+    font-size: 0.7rem;
   }
 
   .container2 {
@@ -102,11 +104,11 @@
   }
 }
 
-img.noteenchantee{
+img.noteenchantee {
   width: 382.05px;
 }
 
-/* Desktop 1440px et plus */
+/* Desktop 1440px*/
 
 @media screen and (min-width: 1440px) {
   .fa-accueil {

@@ -6,15 +6,15 @@ i.fillHover:hover {
   background-size: 400% 400%;
   -webkit-text-fill-color: #9356dc;
   cursor: pointer;
-  -webkit-animation: AnimationName 2s ease infinite;
-  -moz-animation: AnimationName 2s ease infinite;
-  animation: AnimationName 2s ease infinite;
+  -webkit-animation: AnimationJaime 2s ease infinite;
+  -moz-animation: AnimationJaime 2s ease infinite;
+  animation: AnimationJaime 2s ease infinite;
 }
 
 i.fillHover {
   font-size: 40px;
 }
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes AnimationJaime {
   0% {
     background-position: 0% 88%;
   }
@@ -25,7 +25,7 @@ i.fillHover {
     background-position: 0% 88%;
   }
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes AnimationJaime {
   0% {
     background-position: 0% 88%;
   }
@@ -36,7 +36,7 @@ i.fillHover {
     background-position: 0% 88%;
   }
 }
-@keyframes AnimationName {
+@keyframes AnimationJaime {
   0% {
     background-position: 0% 88%;
   }
@@ -126,7 +126,6 @@ i.fillHover {
   }
 }
 
-/* 
 
 /*Animation des menus */
 
@@ -174,14 +173,6 @@ i.fillHover {
 .menus li {
   position: relative;
   overflow: hidden;
-  /* animation: animationdemunu 1.4s ease; */
-  // animation: animationdemunu 1.4s linear;
-  /* opacity: 0; */
-  /* animation: fadeOut 3s ease-in-out; */
-  // animation: animationdemunu 1.4s ease-in-out;
-  //   animation-fill-mode: forwards;
-  //   -o-animation: animationdemunu 1.4s ease-in-out;
-  //   -o-animation-fill-mode: forwards;
   animation: animationdemunu 1.4s cubic-bezier(0.21, 0.58, 0.29, 1.05);
 }
 
@@ -207,7 +198,6 @@ label.check {
 
 label.check::before {
   animation: labelcheckrotate 0.25s;
-  //  cubic-bezier(1, 0, 0, 1);
 }
 
 @keyframes labelcheckwidth {
@@ -227,3 +217,5 @@ label.check::before {
     transform: rotate(0deg);
   }
 }
+
+

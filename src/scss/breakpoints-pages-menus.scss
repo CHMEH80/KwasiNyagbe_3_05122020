@@ -11,8 +11,8 @@
 
   .pnouveau,
   .pnouveau-1 {
-  left: 16rem; 
-}
+    left: 16rem;
+  }
 }
 
 /* Responsive Tablette */
@@ -53,13 +53,13 @@
     margin-top: 2rem;
   }
 
-.pnouveau,
-.pnouveau-1 {
-      left: 17rem; 
+  .pnouveau,
+  .pnouveau-1 {
+    left: 17rem;
   }
 }
 
-/* responsive Desktop */
+/* responsive Desktop et plus */
 
 @media screen and (min-width: 1024px) {
   #container_2 {
@@ -72,11 +72,8 @@
     margin: 1rem 0 0 27rem;
   }
 
-.pnouveau,
-.pnouveau-1 {
-      left: 36rem; 
-      }
+  .pnouveau,
+  .pnouveau-1 {
+    left: 36rem;
+  }
 }
-
-
-

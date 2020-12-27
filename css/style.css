@@ -667,10 +667,10 @@ label.check::before {
   }
 }
 
-@media screen and (min-width: 1280px){
-.fa-accueil {
+@media screen and (min-width: 1280px) {
+  .fa-accueil {
     margin: 1rem 0 0 20rem;
-}
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -687,8 +687,8 @@ label.check::before {
   }
 
   header .logo {
-    margin: 1rem 2rem 1rem 7.5rem;
-}
+    margin: 1rem 2rem 1rem 5.5rem;
+  }
 }
 @media screen and (min-width: 768px) {
   header {
@@ -727,6 +727,12 @@ label.check::before {
   .fa-restaurants,
   .fa-restaurants-3 {
     margin: 1rem 0 0 27rem;
+  }
+}
+
+@media screen and (min-width: 1980px) {
+  .fa-accueil {
+    margin: 1rem 0 0 37rem;
   }
 }
 
