@@ -4,7 +4,7 @@ i.fillHover:hover {
   font-weight: bold;
   background-color: -webkit-linear-gradient(327deg, $couleur_2, $couleur_1);
   background-size: 400% 400%;
-  -webkit-text-fill-color: rgba(147,86,220, 1.5);
+  -webkit-text-fill-color: $lighter;
   cursor: pointer;
   -webkit-animation: AnimationName 2s ease infinite;
   -moz-animation: AnimationName 2s ease infinite;
@@ -188,14 +188,10 @@ i.fillHover {
 @keyframes animationdemunu {
   0% {
     transform: translateY(-30px);
-    // transform: scaleX(0);
-    // transform: scaleY(0);
     opacity: 0;
   }
   100% {
     transform: translateY(0px);
-    // transform: scaleX(1);
-    // transform: scaleY(1);
     opacity: 1;
   }
 }
