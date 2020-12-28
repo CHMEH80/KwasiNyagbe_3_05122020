@@ -406,35 +406,35 @@ i.fillHover {
 }
 @-webkit-keyframes AnimationName {
   0% {
-    background-position: 0 88%;
+    opacity: 0;
   }
   50% {
-    background-position: 100% 13%;
+    opacity: 0.5;
   }
   100% {
-    background-position: 0 88%;
+    opacity: 1;
   }
 }
 @-moz-keyframes AnimationName {
   0% {
-    background-position: 0 88%;
+    opacity: 0;
   }
   50% {
-    background-position: 100% 13%;
+    opacity: 0.5;
   }
   100% {
-    background-position: 0 88%;
+    opacity: 1;
   }
 }
 @keyframes AnimationName {
   0% {
-    background-position: 0 88%;
+    opacity: 0;
   }
   50% {
-    background-position: 100% 13%;
+    opacity: 0.5;
   }
   100% {
-    background-position: 0 88%;
+    opacity: 1;
   }
 }
 .loading1 {

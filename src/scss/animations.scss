@@ -16,35 +16,35 @@ i.fillHover {
 }
 @-webkit-keyframes AnimationJaime {
   0% {
-    background-position: 0% 88%;
+    opacity: 0;
   }
   50% {
-    background-position: 100% 13%;
+    opacity: 0.5;
   }
   100% {
-    background-position: 0% 88%;
+    opacity: 1;
   }
 }
 @-moz-keyframes AnimationJaime {
   0% {
-    background-position: 0% 88%;
+    opacity: 0;
   }
   50% {
-    background-position: 100% 13%;
+    opacity: 0.5;
   }
   100% {
-    background-position: 0% 88%;
+    opacity: 1;
   }
 }
 @keyframes AnimationJaime {
   0% {
-    background-position: 0% 88%;
+    opacity: 0;
   }
   50% {
-    background-position: 100% 13%;
+    opacity: 0.5;
   }
   100% {
-    background-position: 0% 88%;
+    opacity: 1;
   }
 }
 
@@ -125,7 +125,6 @@ i.fillHover {
     visibility: hidden;
   }
 }
-
 
 /*Animation des menus */
 
@@ -217,5 +216,3 @@ label.check::before {
     transform: rotate(0deg);
   }
 }
-
-
