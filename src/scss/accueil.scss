@@ -34,13 +34,14 @@ nav a {
   display: flex;
   justify-content: center;
   border-top-style: groove;
-  background-color: #f2f2f1;
+  background-color:#EAEAEA;
   border-bottom: 0.1px solid rgba(209, 209, 209, 0.2);
 }
 
 .button1 {
   background: linear-gradient(172deg, $couleur_2 21%, $couleur_1 79%);
-  box-shadow: 0 0 0.5rem 0.3rem $couleur-de-fond;
+  // box-shadow: 0 0 0.5rem 0.3rem $couleur-de-fond;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
   color: $cd-txt;
   width: 63%;
   border: none;
@@ -90,6 +91,7 @@ i.fas:hover {
   padding: 1rem;
   border-radius: 1.5rem;
   font-family: 'Raleway', sans-serif;
+  background-color: #F6F6F6;
   box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 
   &::before {
@@ -126,7 +128,7 @@ i.fas:hover {
 section#resrvationmenu {
   display: flex;
   flex-direction: column;
-  background-color: $couleur-de-fond;
+  background-color: #F6F6F6;
 }
 
 .fonctionnement {
@@ -210,13 +212,13 @@ span.francaise {
 section#restaurants {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color:#F6F6F6;
   margin-top: 1.5rem;
   padding-bottom: 3rem;
 }
 
 a {
-  padding: 1.5rem 0 0 1.5rem;
+  padding: 0rem 0 0 1.5rem;
   text-decoration: none;
   color: #000;
 }

@@ -23,12 +23,12 @@ nav a {
   display: flex;
   justify-content: center;
   border-top-style: groove;
-  background-color: #f2f2f1;
-  border-bottom: 0.1px solid rgba(209, 209, 209, 0.2);
+  background-color: #EAEAEA;
+ 
 }
 .button1 {
   background: linear-gradient(172deg, #ff79da 21%, #9356dc 79%);
-  box-shadow: 0 0 0.5rem 0.3rem #e5e5e5;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
   color: #fff;
   width: 63%;
   border: none;
@@ -71,6 +71,7 @@ i.fas:hover {
   padding: 1rem;
   border-radius: 1.5rem;
   font-family: Raleway, sans-serif;
+  background-color: #F6F6F6;
   box-shadow: 2px 1px 5px 2px #d1d1d1;
 }
 .fonctionnement p::before {
@@ -94,13 +95,18 @@ i.fas:hover {
 .fonctionnement p.degusterrestaurant::before {
   content: '3';
 }
-.fonctionnement p:hover {
+/* .fonctionnement p:hover {
   background-color: rgba(255, 121, 209, 0.2);
+} */
+
+p.degusterrestaurant {
+  background-color: #f2eafb;
 }
+
 section#resrvationmenu {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;
 }
 .fonctionnement {
   background-color: #fff !important;
@@ -111,6 +117,7 @@ section#resrvationmenu h1 {
 section#resrvationmenu h4 {
   text-align: center;
   margin: 1rem;
+  font-weight: 100;
 }
 h2.hfonctionnement {
   font-size: 20px;
@@ -166,19 +173,19 @@ span.francaise {
 section#restaurants {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;
   margin-top: 1.5rem;
   padding-bottom: 3rem;
 }
 a {
-  padding: 1.5rem 0 0 1.5rem;
+  padding: 0rem 0 0 1.5rem;
   text-decoration: none;
   color: #000;
 }
 footer {
   display: flex;
   height: auto;
-  background-color: #0c0c0c;
+  background-color:#353535;
   padding-bottom: 25px;
   text-decoration: none;
 }
@@ -186,7 +193,7 @@ footer section {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 footer img {
   padding: 1rem 3rem 1rem 0rem;
@@ -213,7 +220,7 @@ header .logo1 {
   margin: 1rem 2rem 1rem -0.5rem;
 }
 i.fas.fa-arrow-left {
-  margin: 0rem 2.5rem 1.5rem 0.5rem;
+  margin: 1rem 2.5rem 0.5rem 0.5rem;
   font-size: 2rem;
   position: relative;
 }
@@ -226,11 +233,11 @@ i.fas.fa-arrow-left {
 section#menualafrancaise img {
   width: 100%;
   height: 190px;
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;
   object-fit: cover;
 }
 section#menualafrancaise {
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;
 }
 aside.photo_menus {
   display: flex;
@@ -246,9 +253,11 @@ figure.figureremenus h1 {
 figcaption.menus_alafrancaise {
   display: flex;
   border-radius: 1rem 1rem 0 0;
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;
   position: relative;
   bottom: 1rem;
+  transform: translateY(-30px);
+  border-radius: 42px 42px 0 0;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -258,7 +267,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;
 }
 *,
 ::after,
@@ -273,7 +282,7 @@ form {
   -ms-flex-pack: center;
   justify-content: center;
   padding-bottom: 3rem;
-  margin: 0 1rem 0 1rem;
+  margin: -3rem 1rem 0 1rem;
 }
 form input[type='checkbox'] {
   display: none;
@@ -373,8 +382,8 @@ textarea {
   font: inherit;
 }
 form .button {
-  -webkit-box-shadow: 0 0 0.5rem 0.3rem #e5e5fe;
-  box-shadow: 0 0 0.5rem 0.3rem #e5e5fe;
+  -webkit-box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
   background: linear-gradient(172deg, #ff79da 21%, #9356dc 79%);
   color: #fff;
   border: none;
@@ -619,6 +628,10 @@ label.check::before {
   }
   .fonctionnement p {
     margin-right: 0;
+  }
+
+  p.degusterrestaurant {
+    background-color: #f2eafb;
   }
   .fonctionnement {
     background-color: initial !important;
